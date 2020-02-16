@@ -1,0 +1,6 @@
+embed=discord.Embed(title="SonyMice 1.553", url="http://sonymice.com", description="O SonyMice foi atualizado para a versão 1.553 com standalone executável versão fullscreen(tampa a barra de navegação do Windows")
+embed.set_author(name="Syefae", url="https://sonymice.com/profile?pr=Syefae",, icon_url="https://sonymice.com/avatar/1/1.jpg")
+embed.set_thumbnail(url="https://sonymice.com/Icon.ico")
+embed.add_field(name="Equipe SonyMice", value="https://sonymice.com/", inline=False)
+embed.set_footer(text="Agradecemos a preferencia! SonyMice inovando e fazendo a diversão!")
+await self.bot.say(embed=embed)
